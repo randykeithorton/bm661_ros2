@@ -1,13 +1,22 @@
 # bm661_ros2
  
 ## step one
-> git clone https://github.com/randykeithorton/bm661_ros2.git
+```
+git clone https://github.com/randykeithorton/bm661_ros2.git
+```
 ## step two
-> cd bm661_ros2
+```
+cd bm661_ros2
+```
 ## step three
-> colcon build
+```
+colcon build
+```
 ## step four
-> source ./install/setup.bash
+```
+source ./install/setup.bash
+```
 ## step five
-> ros2 run bm661_ros2 bm661
-
+```
+ros2 run bm661_ros2 bm661
+```
