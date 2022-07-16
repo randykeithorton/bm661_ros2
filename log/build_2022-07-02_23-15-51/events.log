@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (bm661_ros2) JobQueued: {'identifier': 'bm661_ros2', 'dependencies': OrderedDict()}
+[0.000834] (bm661_ros2) JobStarted: {'identifier': 'bm661_ros2'}
+[0.007225] (bm661_ros2) JobProgress: {'identifier': 'bm661_ros2', 'progress': 'cmake'}
+[0.007453] (bm661_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/randy/ROS/bm661_ros2', '-DCMAKE_INSTALL_PREFIX=/home/randy/ROS/bm661_ros2/install/bm661_ros2'], 'cwd': '/home/randy/ROS/bm661_ros2/build/bm661_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'randy'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/randy'), ('DESKTOP_SESSION', 'pop'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '13159'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'randy'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'randy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2776,unix/pop-os:/tmp/.ICE-unix/2776'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a93f485c_327f_4337_984e_741b69183f47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/randy/ROS/bm661_ros2/build/bm661_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/randy/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.070844] (bm661_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.099787] (-) TimerEvent: {}
+[0.120514] (bm661_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.128038] (bm661_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.168658] (bm661_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173760] (bm661_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174096] (bm661_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174825] (bm661_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177384] (bm661_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199893] (-) TimerEvent: {}
+[0.222927] (bm661_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.228122] (bm661_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.228325] (bm661_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.228657] (bm661_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.234616] (bm661_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300006] (-) TimerEvent: {}
+[0.339949] (bm661_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[0.400120] (-) TimerEvent: {}
+[0.400855] (bm661_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.440038] (bm661_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.443808] (bm661_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.450397] (bm661_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.462705] (bm661_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.477628] (bm661_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500212] (-) TimerEvent: {}
+[0.528391] (bm661_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.530727] (bm661_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.588580] (bm661_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.600314] (-) TimerEvent: {}
+[0.605632] (bm661_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.634929] (bm661_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700423] (-) TimerEvent: {}
+[0.748709] (bm661_ros2) StdoutLine: {'line': b'-- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.749625] (bm661_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.800533] (-) TimerEvent: {}
+[0.848163] (bm661_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.853780] (bm661_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.866164] (bm661_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.866267] (bm661_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.882609] (bm661_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.891744] (bm661_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.897422] (bm661_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.900619] (-) TimerEvent: {}
+[0.914137] (bm661_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.914287] (bm661_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.941364] (bm661_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.983347] (bm661_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.983591] (bm661_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000742] (-) TimerEvent: {}
+[1.024155] (bm661_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.024836] (bm661_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.026281] (bm661_ros2) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.030614] (bm661_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.100841] (-) TimerEvent: {}
+[1.136725] (bm661_ros2) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.136932] (bm661_ros2) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.138932] (bm661_ros2) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.151191] (bm661_ros2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.162484] (bm661_ros2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.175096] (bm661_ros2) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.200946] (-) TimerEvent: {}
+[1.218530] (bm661_ros2) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.218882] (bm661_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.262417] (bm661_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.262582] (bm661_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.301072] (-) TimerEvent: {}
+[1.301781] (bm661_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.301949] (bm661_ros2) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.341314] (bm661_ros2) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.341486] (bm661_ros2) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.378689] (bm661_ros2) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.378862] (bm661_ros2) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.401183] (-) TimerEvent: {}
+[1.416832] (bm661_ros2) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.417001] (bm661_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.457084] (bm661_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.496858] (bm661_ros2) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.498043] (bm661_ros2) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.499816] (bm661_ros2) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.500930] (bm661_ros2) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.501244] (-) TimerEvent: {}
+[1.509353] (bm661_ros2) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.512971] (bm661_ros2) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.516002] (bm661_ros2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.520223] (bm661_ros2) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.562467] (bm661_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.568085] (bm661_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.581789] (bm661_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.582621] (bm661_ros2) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.582712] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.601351] (-) TimerEvent: {}
+[1.604909] (bm661_ros2) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.605029] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.605183] (bm661_ros2) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.701701] (-) TimerEvent: {}
+[1.704341] (bm661_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.707889] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.711717] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.801825] (-) TimerEvent: {}
+[1.818909] (bm661_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.902231] (-) TimerEvent: {}
+[1.913889] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.002349] (-) TimerEvent: {}
+[2.007263] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.007566] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.007763] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.008251] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.008399] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.008865] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.008979] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.009454] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.009570] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.010092] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.010210] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.010672] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.010774] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.010906] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.011004] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.011140] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.011220] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.011757] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.011898] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.012406] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.012535] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.013057] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.013151] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.013672] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.013832] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.014351] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.014504] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.015021] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.015144] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.015697] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.015838] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.016376] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.016508] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.017041] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.017158] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.017677] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.017857] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.018387] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.018479] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.019010] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.019388] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.019544] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.019632] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.019766] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.019848] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.020031] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.020113] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.020626] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.020752] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.021277] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.021788] (bm661_ros2) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.037284] (bm661_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.069992] (bm661_ros2) StderrLine: {'line': b"Error parsing '/home/randy/ROS/bm661_ros2/package.xml':\n"}
+[2.097541] (bm661_ros2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.097757] (bm661_ros2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.097825] (bm661_ros2) StderrLine: {'line': b'    main()\n'}
+[2.097885] (bm661_ros2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.098054] (bm661_ros2) StderrLine: {'line': b'    raise e\n'}
+[2.098128] (bm661_ros2) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.098197] (bm661_ros2) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.098264] (bm661_ros2) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[2.098341] (bm661_ros2) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[2.098405] (bm661_ros2) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/randy/ROS/bm661_ros2/package.xml':\n"}
+[2.098471] (bm661_ros2) StderrLine: {'line': b'Error(s):\n'}
+[2.098524] (bm661_ros2) StderrLine: {'line': b"- The generic dependency on 'sensor_msgs' is redundant with: exec_depend\n"}
+[2.098579] (bm661_ros2) StderrLine: {'line': b"- The generic dependency on 'visualization_msgs' is redundant with: exec_depend\n"}
+[2.098632] (bm661_ros2) StderrLine: {'line': b"- The generic dependency on 'diagnostic_updater' is redundant with: exec_depend\n"}
+[2.098682] (bm661_ros2) StderrLine: {'line': b"- The generic dependency on 'dynamic_reconfigure' is redundant with: exec_depend\n"}
+[2.102445] (-) TimerEvent: {}
+[2.109532] (bm661_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.109692] (bm661_ros2) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[2.109816] (bm661_ros2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.109915] (bm661_ros2) StderrLine: {'line': b'  /home/randy/ROS/bm661_ros2/package.xml\n'}
+[2.109971] (bm661_ros2) StderrLine: {'line': b'  /home/randy/ROS/bm661_ros2/build/bm661_ros2/ament_cmake_core/package.cmake)\n'}
+[2.110023] (bm661_ros2) StderrLine: {'line': b'  returned error code 1\n'}
+[2.110073] (bm661_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.110122] (bm661_ros2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.110172] (bm661_ros2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[2.110220] (bm661_ros2) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[2.110267] (bm661_ros2) StderrLine: {'line': b'\n'}
+[2.110316] (bm661_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.110376] (bm661_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.110435] (bm661_ros2) StdoutLine: {'line': b'See also "/home/randy/ROS/bm661_ros2/build/bm661_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[2.121484] (bm661_ros2) CommandEnded: {'returncode': 1}
+[2.122279] (bm661_ros2) JobEnded: {'identifier': 'bm661_ros2', 'rc': 1}
+[2.133167] (-) EventReactorShutdown: {}

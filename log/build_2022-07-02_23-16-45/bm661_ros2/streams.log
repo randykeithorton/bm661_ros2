@@ -1,0 +1,94 @@
+[0.008s] Invoking command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/randy/ROS/bm661_ros2 -DCMAKE_INSTALL_PREFIX=/home/randy/ROS/bm661_ros2/install/bm661_ros2
+[0.015s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.183s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.184s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.361s] -- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)
+[0.362s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.452s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.470s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.675s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.679s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.679s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.779s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.782s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.786s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.879s] -- Found Qhull version 8.0.2
+[0.979s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.072s] -- looking for PCL_COMMON
+[1.072s] -- looking for PCL_KDTREE
+[1.072s] -- looking for PCL_OCTREE
+[1.073s] -- looking for PCL_SEARCH
+[1.073s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.073s] -- looking for PCL_FILTERS
+[1.073s] -- looking for PCL_2D
+[1.073s] -- looking for PCL_GEOMETRY
+[1.074s] -- looking for PCL_IO
+[1.074s] -- looking for PCL_FEATURES
+[1.074s] -- looking for PCL_ML
+[1.074s] -- looking for PCL_SEGMENTATION
+[1.075s] -- looking for PCL_VISUALIZATION
+[1.075s] -- looking for PCL_SURFACE
+[1.075s] -- looking for PCL_REGISTRATION
+[1.076s] -- looking for PCL_KEYPOINTS
+[1.076s] -- looking for PCL_TRACKING
+[1.076s] -- looking for PCL_RECOGNITION
+[1.077s] -- looking for PCL_STEREO
+[1.077s] -- looking for PCL_APPS
+[1.077s] -- looking for PCL_IN_HAND_SCANNER
+[1.077s] -- looking for PCL_MODELER
+[1.078s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.078s] -- looking for PCL_OUTOFCORE
+[1.078s] -- looking for PCL_PEOPLE
+[1.082s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.137s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.137s] -- Configured cppcheck include dirs: 
+[1.137s] -- Configured cppcheck exclude dirs and/or files: 
+[1.138s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.138s] -- Added test 'lint_cmake' to check CMake code style
+[1.139s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.141s] -- Added test 'uncrustify' to check C / C++ code style
+[1.142s] -- Configured uncrustify additional arguments: 
+[1.142s] -- Added test 'xmllint' to check XML markup files
+[1.143s] -- Configuring done
+[1.153s] -- Generating done
+[1.155s] -- Build files have been written to: /home/randy/ROS/bm661_ros2/build/bm661_ros2
+[1.164s] Invoked command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/randy/ROS/bm661_ros2 -DCMAKE_INSTALL_PREFIX=/home/randy/ROS/bm661_ros2/install/bm661_ros2
+[1.166s] Invoking command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/randy/ROS/bm661_ros2/build/bm661_ros2 -- -j16 -l16
+[1.192s] [ 50%] [32mBuilding CXX object CMakeFiles/bm661.dir/src/bm661.cpp.o[0m
+[2.745s] [01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.745s] [01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:63:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_t[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.745s]    63 |         pthread_t [01;35m[Kpublish_t[m[K, recv_t;
+[2.745s]       |                   [01;35m[K^~~~~~~~~[m[K
+[2.745s] [01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:63:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krecv_t[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.745s]    63 |         pthread_t publish_t, [01;35m[Krecv_t[m[K;
+[2.745s]       |                              [01;35m[K^~~~~~[m[K
+[4.020s] [100%] [32m[1mLinking CXX executable bm661[0m
+[4.155s] [100%] Built target bm661
+[4.161s] Invoked command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/randy/ROS/bm661_ros2/build/bm661_ros2 -- -j16 -l16
+[4.179s] Invoking command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/randy/ROS/bm661_ros2/build/bm661_ros2
+[4.181s] -- Install configuration: ""
+[4.182s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/lib/bm661_ros2/bm661
+[4.182s] -- Set runtime path of "/home/randy/ROS/bm661_ros2/install/bm661_ros2/lib/bm661_ros2/bm661" to ""
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/package_run_dependencies/bm661_ros2
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/parent_prefix_path/bm661_ros2
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/ament_prefix_path.sh
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/ament_prefix_path.dsv
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/path.sh
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/path.dsv
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.bash
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.sh
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.zsh
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.dsv
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/package.dsv
+[4.183s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/packages/bm661_ros2
+[4.184s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/cmake/bm661_ros2Config.cmake
+[4.184s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/cmake/bm661_ros2Config-version.cmake
+[4.184s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/package.xml
+[4.185s] Invoked command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/randy/ROS/bm661_ros2/build/bm661_ros2

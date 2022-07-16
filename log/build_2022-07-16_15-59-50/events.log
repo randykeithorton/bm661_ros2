@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (bm661_ros2) JobQueued: {'identifier': 'bm661_ros2', 'dependencies': OrderedDict()}
+[0.000384] (bm661_ros2) JobStarted: {'identifier': 'bm661_ros2'}
+[0.006318] (bm661_ros2) JobProgress: {'identifier': 'bm661_ros2', 'progress': 'cmake'}
+[0.006908] (bm661_ros2) JobProgress: {'identifier': 'bm661_ros2', 'progress': 'build'}
+[0.007564] (bm661_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/randy/ROS/bm661_ros2/build/bm661_ros2', '--', '-j16', '-l16'], 'cwd': '/home/randy/ROS/bm661_ros2/build/bm661_ros2', 'env': OrderedDict([('LANGUAGE', 'zh_CN:en'), ('USER', 'randy'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/randy'), ('OLDPWD', '/home/randy'), ('LESS', '-R'), ('DESKTOP_SESSION', 'pop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/randy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2867'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3108'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21545'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'randy'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:45859'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'randy'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/randy/.fishros/bin/'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3108,unix/pop-os:/tmp/.ICE-unix/3108'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', '2e807e74a3734d3fbdf2bc6c7d609708'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('GSETTINGS_SCHEMA_DIR', '/home/randy/data'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3113929d-95fe-4dd0-b13b-68c1c996ee96'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/randy/ROS/bm661_ros2/build/bm661_ros2'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/randy/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029488] (bm661_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099205] (-) TimerEvent: {}
+[0.128967] (bm661_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.158137] (bm661_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.160492] (bm661_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.166055] (bm661_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.175560] (bm661_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.187981] (bm661_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199297] (-) TimerEvent: {}
+[0.233596] (bm661_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.234873] (bm661_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299430] (-) TimerEvent: {}
+[0.317561] (bm661_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399551] (-) TimerEvent: {}
+[0.426023] (bm661_ros2) StdoutLine: {'line': b'-- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.426238] (bm661_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.499659] (-) TimerEvent: {}
+[0.520690] (bm661_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.543282] (bm661_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.599785] (-) TimerEvent: {}
+[0.700058] (-) TimerEvent: {}
+[0.790073] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.793703] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.793962] (bm661_ros2) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.800143] (-) TimerEvent: {}
+[0.895370] (bm661_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.898691] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.900232] (-) TimerEvent: {}
+[0.902022] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.000376] (-) TimerEvent: {}
+[1.008122] (bm661_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.100499] (-) TimerEvent: {}
+[1.108563] (bm661_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.200613] (-) TimerEvent: {}
+[1.203396] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.203746] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.203950] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.204122] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.204379] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.204641] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.204910] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.205132] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.205336] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.205651] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.205902] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.206125] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.206425] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.206716] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.206983] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.207270] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.207540] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.207797] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.208114] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.208350] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.208837] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.209037] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.209215] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.209405] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.209700] (bm661_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.224788] (bm661_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.278891] (bm661_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.279082] (bm661_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.279152] (bm661_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.279978] (bm661_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.281630] (bm661_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.282644] (bm661_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.288043] (bm661_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.288146] (bm661_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.288992] (bm661_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.290524] (bm661_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.300695] (-) TimerEvent: {}
+[1.300857] (bm661_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.302833] (bm661_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/randy/ROS/bm661_ros2/build/bm661_ros2\n'}
+[1.322404] (bm661_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bm661\x1b[0m\n'}
+[1.332986] (bm661_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bm661.dir/src/bm661.cpp.o\x1b[0m\n'}
+[1.400828] (-) TimerEvent: {}
+[1.501105] (-) TimerEvent: {}
+[1.601384] (-) TimerEvent: {}
+[1.701663] (-) TimerEvent: {}
+[1.801986] (-) TimerEvent: {}
+[1.902282] (-) TimerEvent: {}
+[2.002566] (-) TimerEvent: {}
+[2.102858] (-) TimerEvent: {}
+[2.203141] (-) TimerEvent: {}
+[2.303429] (-) TimerEvent: {}
+[2.403727] (-) TimerEvent: {}
+[2.504026] (-) TimerEvent: {}
+[2.604297] (-) TimerEvent: {}
+[2.704590] (-) TimerEvent: {}
+[2.804875] (-) TimerEvent: {}
+[2.809141] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kbm661::bm661()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.809308] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:208:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbm661::inverted\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.809389] (bm661_ros2) StderrLine: {'line': b'  208 |     std::string hostip, port, frame_id, scan_topic, \x1b[01;35m\x1b[Kinverted\x1b[m\x1b[K;\n'}
+[2.809456] (bm661_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.809519] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:208:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string bm661::port\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.809599] (bm661_ros2) StderrLine: {'line': b'  208 |     std::string hostip, \x1b[01;35m\x1b[Kport\x1b[m\x1b[K, frame_id, scan_topic, inverted;\n'}
+[2.809654] (bm661_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.809706] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:54:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.809760] (bm661_ros2) StderrLine: {'line': b'   54 |     \x1b[01;35m\x1b[Kbm661\x1b[m\x1b[K()\n'}
+[2.809810] (bm661_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.904989] (-) TimerEvent: {}
+[3.005266] (-) TimerEvent: {}
+[3.105563] (-) TimerEvent: {}
+[3.205846] (-) TimerEvent: {}
+[3.306136] (-) TimerEvent: {}
+[3.326968] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint bm661::create_socket()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.327121] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:103:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.327188] (bm661_ros2) StderrLine: {'line': b'  103 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[3.327246] (bm661_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.406255] (-) TimerEvent: {}
+[3.506530] (-) TimerEvent: {}
+[3.606799] (-) TimerEvent: {}
+[3.707070] (-) TimerEvent: {}
+[3.807358] (-) TimerEvent: {}
+[3.907629] (-) TimerEvent: {}
+[4.007905] (-) TimerEvent: {}
+[4.066860] (bm661_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bm661\x1b[0m\n'}
+[4.108023] (-) TimerEvent: {}
+[4.177323] (bm661_ros2) StdoutLine: {'line': b'[100%] Built target bm661\n'}
+[4.190556] (bm661_ros2) CommandEnded: {'returncode': 0}
+[4.204039] (bm661_ros2) JobProgress: {'identifier': 'bm661_ros2', 'progress': 'install'}
+[4.208099] (-) TimerEvent: {}
+[4.209075] (bm661_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/randy/ROS/bm661_ros2/build/bm661_ros2'], 'cwd': '/home/randy/ROS/bm661_ros2/build/bm661_ros2', 'env': OrderedDict([('LANGUAGE', 'zh_CN:en'), ('USER', 'randy'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/randy'), ('OLDPWD', '/home/randy'), ('LESS', '-R'), ('DESKTOP_SESSION', 'pop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/randy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2867'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3108'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21545'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'randy'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:45859'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'randy'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/randy/.fishros/bin/'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/3108,unix/pop-os:/tmp/.ICE-unix/3108'), ('PAPERSIZE', 'letter'), ('INVOCATION_ID', '2e807e74a3734d3fbdf2bc6c7d609708'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'pop'), ('XMODIFIERS', '@im=fcitx'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('GSETTINGS_SCHEMA_DIR', '/home/randy/data'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3113929d-95fe-4dd0-b13b-68c1c996ee96'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/randy/ROS/bm661_ros2/build/bm661_ros2'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/randy/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.212450] (bm661_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.212573] (bm661_ros2) StdoutLine: {'line': b'-- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/lib/bm661_ros2/bm661\n'}
+[4.213934] (bm661_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/randy/ROS/bm661_ros2/install/bm661_ros2/lib/bm661_ros2/bm661" to ""\n'}
+[4.214014] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2//rviz\n'}
+[4.214070] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2//rviz/rviz_scan.rviz\n'}
+[4.214144] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/package_run_dependencies/bm661_ros2\n'}
+[4.214208] (bm661_ros2) StdoutLine: {'line': b'-- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/parent_prefix_path/bm661_ros2\n'}
+[4.214258] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/ament_prefix_path.sh\n'}
+[4.214323] (bm661_ros2) StdoutLine: {'line': b'-- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/ament_prefix_path.dsv\n'}
+[4.214398] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/path.sh\n'}
+[4.214441] (bm661_ros2) StdoutLine: {'line': b'-- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/path.dsv\n'}
+[4.214511] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.bash\n'}
+[4.214563] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.sh\n'}
+[4.214624] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.zsh\n'}
+[4.214667] (bm661_ros2) StdoutLine: {'line': b'-- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.dsv\n'}
+[4.214734] (bm661_ros2) StdoutLine: {'line': b'-- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/package.dsv\n'}
+[4.214820] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/packages/bm661_ros2\n'}
+[4.214881] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/cmake/bm661_ros2Config.cmake\n'}
+[4.214956] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/cmake/bm661_ros2Config-version.cmake\n'}
+[4.215006] (bm661_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/package.xml\n'}
+[4.215780] (bm661_ros2) CommandEnded: {'returncode': 0}
+[4.245752] (bm661_ros2) JobEnded: {'identifier': 'bm661_ros2', 'rc': 0}
+[4.246341] (-) EventReactorShutdown: {}

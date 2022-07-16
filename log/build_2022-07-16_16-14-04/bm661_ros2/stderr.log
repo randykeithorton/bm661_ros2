@@ -1,0 +1,10 @@
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:[m[K In constructor ‘[01m[Kbm661::bm661()[m[K’:
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:209:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbm661::inverted[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  209 |     std::string hostip, port, frame_id, scan_topic, [01;35m[Kinverted[m[K;
+      |                                                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:209:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string bm661::port[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  209 |     std::string hostip, [01;35m[Kport[m[K, frame_id, scan_topic, inverted;
+      |                         [01;35m[K^~~~[m[K
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:54:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   54 |     [01;35m[Kbm661[m[K()
+      |     [01;35m[K^~~~~[m[K

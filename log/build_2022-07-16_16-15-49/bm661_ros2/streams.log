@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/randy/ROS/bm661_ros2/build/bm661_ros2 -- -j16 -l16
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target bm661[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/bm661.dir/src/bm661.cpp.o[0m
+[2.796s] [100%] [32m[1mLinking CXX executable bm661[0m
+[2.906s] [100%] Built target bm661
+[2.920s] Invoked command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/randy/ROS/bm661_ros2/build/bm661_ros2 -- -j16 -l16
+[2.939s] Invoking command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/randy/ROS/bm661_ros2/build/bm661_ros2
+[2.942s] -- Install configuration: ""
+[2.943s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/lib/bm661_ros2/bm661
+[2.943s] -- Set runtime path of "/home/randy/ROS/bm661_ros2/install/bm661_ros2/lib/bm661_ros2/bm661" to ""
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2//rviz
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2//rviz/rviz_scan.rviz
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/package_run_dependencies/bm661_ros2
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/parent_prefix_path/bm661_ros2
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/ament_prefix_path.sh
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/ament_prefix_path.dsv
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/path.sh
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/environment/path.dsv
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.bash
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.sh
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.zsh
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/local_setup.dsv
+[2.944s] -- Installing: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/package.dsv
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/ament_index/resource_index/packages/bm661_ros2
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/cmake/bm661_ros2Config.cmake
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/cmake/bm661_ros2Config-version.cmake
+[2.944s] -- Up-to-date: /home/randy/ROS/bm661_ros2/install/bm661_ros2/share/bm661_ros2/package.xml
+[2.945s] Invoked command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/randy/ROS/bm661_ros2/build/bm661_ros2

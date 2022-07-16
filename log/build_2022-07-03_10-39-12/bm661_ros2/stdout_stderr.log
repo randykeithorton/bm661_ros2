@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target bm661[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bm661.dir/src/bm661.cpp.o[0m
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:195:37:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator![m[K’ (operand type is ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+  195 |                                 if ([01;31m[K!inverted[m[K)
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:195:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!(bool)[m[K’ (built-in)
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:195:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kbool[m[K’
+In file included from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst std::mutex& operator!(const std::mutex&)[m[K’
+   55 | inline const std::mutex & [01;36m[Koperator[m[K!(const std::mutex & a)
+      |                           [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::mutex&[m[K’
+   55 | inline const std::mutex & operator!([01;36m[Kconst std::mutex & a[m[K)
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:63:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_t[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |         pthread_t [01;35m[Kpublish_t[m[K, recv_t;
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:63:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krecv_t[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |         pthread_t publish_t, [01;35m[Krecv_t[m[K;
+      |                              [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bm661.dir/build.make:76：CMakeFiles/bm661.dir/src/bm661.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/bm661.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

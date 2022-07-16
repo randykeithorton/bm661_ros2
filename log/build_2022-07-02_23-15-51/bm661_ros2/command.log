@@ -1,0 +1,2 @@
+Invoking command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2': /usr/bin/cmake /home/randy/ROS/bm661_ros2 -DCMAKE_INSTALL_PREFIX=/home/randy/ROS/bm661_ros2/install/bm661_ros2
+Invoked command in '/home/randy/ROS/bm661_ros2/build/bm661_ros2' returned '1': /usr/bin/cmake /home/randy/ROS/bm661_ros2 -DCMAKE_INSTALL_PREFIX=/home/randy/ROS/bm661_ros2/install/bm661_ros2

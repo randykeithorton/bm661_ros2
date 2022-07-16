@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000705] (bm661_ros2) JobQueued: {'identifier': 'bm661_ros2', 'dependencies': OrderedDict()}
+[0.000740] (bm661_ros2) JobStarted: {'identifier': 'bm661_ros2'}
+[0.009990] (bm661_ros2) JobProgress: {'identifier': 'bm661_ros2', 'progress': 'cmake'}
+[0.010882] (bm661_ros2) JobProgress: {'identifier': 'bm661_ros2', 'progress': 'build'}
+[0.011650] (bm661_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/randy/ROS/bm661_ros2/build/bm661_ros2', '--', '-j16', '-l16'], 'cwd': '/home/randy/ROS/bm661_ros2/build/bm661_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'randy'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/randy'), ('OLDPWD', '/home/randy'), ('DESKTOP_SESSION', 'pop'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2881'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'randy'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'randy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2858,unix/pop-os:/tmp/.ICE-unix/2858'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8c5593ec_1723_4bae_9a00_0bbfda2f6d4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/randy/ROS/bm661_ros2/build/bm661_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/randy/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.084633] (bm661_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bm661.dir/src/bm661.cpp.o\x1b[0m\n'}
+[0.099712] (-) TimerEvent: {}
+[0.200369] (-) TimerEvent: {}
+[0.300650] (-) TimerEvent: {}
+[0.400950] (-) TimerEvent: {}
+[0.501618] (-) TimerEvent: {}
+[0.601912] (-) TimerEvent: {}
+[0.702221] (-) TimerEvent: {}
+[0.802509] (-) TimerEvent: {}
+[0.902797] (-) TimerEvent: {}
+[1.003120] (-) TimerEvent: {}
+[1.103402] (-) TimerEvent: {}
+[1.203692] (-) TimerEvent: {}
+[1.303979] (-) TimerEvent: {}
+[1.404635] (-) TimerEvent: {}
+[1.504935] (-) TimerEvent: {}
+[1.605237] (-) TimerEvent: {}
+[1.705538] (-) TimerEvent: {}
+[1.723547] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.723915] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:195:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator!\x1b[m\x1b[K\xe2\x80\x99 (operand type is \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[1.724028] (bm661_ros2) StderrLine: {'line': b'  195 |                                 if (\x1b[01;31m\x1b[K!inverted\x1b[m\x1b[K)\n'}
+[1.724142] (bm661_ros2) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.724229] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:195:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koperator!(bool)\x1b[m\x1b[K\xe2\x80\x99 (built-in)\n'}
+[1.724388] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:195:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.724496] (bm661_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:30\x1b[m\x1b[K,\n'}
+[1.724586] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:22\x1b[m\x1b[K,\n'}
+[1.724673] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24\x1b[m\x1b[K,\n'}
+[1.724759] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26\x1b[m\x1b[K,\n'}
+[1.724857] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26\x1b[m\x1b[K,\n'}
+[1.724943] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[1.725029] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[1.725112] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.725196] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.725279] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.725362] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.725446] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.725528] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.725628] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.725731] (bm661_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:1\x1b[m\x1b[K:\n'}
+[1.725816] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst std::mutex& operator!(const std::mutex&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.725903] (bm661_ros2) StderrLine: {'line': b'   55 | inline const std::mutex & \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K!(const std::mutex & a)\n'}
+[1.725988] (bm661_ros2) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.726071] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::mutex&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.726160] (bm661_ros2) StderrLine: {'line': b'   55 | inline const std::mutex & operator!(\x1b[01;36m\x1b[Kconst std::mutex & a\x1b[m\x1b[K)\n'}
+[1.726245] (bm661_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.726330] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:63:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpublish_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.726426] (bm661_ros2) StderrLine: {'line': b'   63 |         pthread_t \x1b[01;35m\x1b[Kpublish_t\x1b[m\x1b[K, recv_t;\n'}
+[1.726512] (bm661_ros2) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.726595] (bm661_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/randy/ROS/bm661_ros2/src/bm661.cpp:63:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krecv_t\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.726698] (bm661_ros2) StderrLine: {'line': b'   63 |         pthread_t publish_t, \x1b[01;35m\x1b[Krecv_t\x1b[m\x1b[K;\n'}
+[1.726783] (bm661_ros2) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.805663] (-) TimerEvent: {}
+[1.905955] (-) TimerEvent: {}
+[2.006259] (-) TimerEvent: {}
+[2.106551] (-) TimerEvent: {}
+[2.206863] (-) TimerEvent: {}
+[2.304250] (bm661_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bm661.dir/build.make:76\xef\xbc\x9aCMakeFiles/bm661.dir/src/bm661.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.304525] (bm661_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/bm661.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.304678] (bm661_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.306279] (bm661_ros2) CommandEnded: {'returncode': 2}
+[2.307212] (-) TimerEvent: {}
+[2.336368] (bm661_ros2) JobEnded: {'identifier': 'bm661_ros2', 'rc': 2}
+[2.347049] (-) EventReactorShutdown: {}
